@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Mon 16 Jul 2012 10:25:07 AM PDT
+
+BeginCmp
+TimeStamp = /4D1E88FA;
+Reference = C11;
+ValeurCmp = 4.7uF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D1E8852;
+Reference = C12;
+ValeurCmp = 0.1uF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D1E88E9;
+Reference = C13;
+ValeurCmp = 0.01uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2273C2;
+Reference = C14;
+ValeurCmp = 4.7uF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FFF3BBA;
+Reference = P1;
+ValeurCmp = CONN_13;
+IdModule  = CONN_13;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FFEFE94;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_SHIELD;
+IdModule  = ARDUINO_SHIELD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D1E7C35;
+Reference = U8;
+ValeurCmp = MAX1270-PDIP;
+IdModule  = DIP-24__300;
+EndCmp
+
+EndListe
