@@ -1,4 +1,4 @@
-(pcb /home/wbd/work/iorodeo/products/analog_input_shield/ana_in_shield/ana_in_shield.dsn
+(pcb /home/wbd/work/iorodeo/products/max1270_shield/max1270_shield/ana_in_shield.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  4872 -3167.3  4872 -5267.7  7618.1 -5267.7  7618.1 -3167.3
-            4872 -3167.3)
+      (path pcb 0  4872 -5267.7  7622 -5267.7  7622 -3167.3  4872 -3167.3
+            4872 -5267.7)
     )
     (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
     (rule
@@ -39,9 +39,6 @@
     (component "DIP-24__300"
       (place U8 6245.1 -4217.5 front 180 (PN "MAX1270-PDIP"))
     )
-    (component CONN_13
-      (place P1 7480.3 -4216 front 90 (PN CONN_13))
-    )
     (component C2
       (place C11 6726.4 -4628 front 270 (PN 4.7uF))
       (place C12 6789.4 -3781.5 front 90 (PN 0.1uF))
@@ -49,6 +46,9 @@
     )
     (component C1
       (place C13 6468.5 -4592.5 front 270 (PN 0.01uF))
+    )
+    (component CONN_13
+      (place P1 7484.2 -4217.5 front 90 (PN CONN_13))
     )
   )
   (library
@@ -120,25 +120,6 @@
       (pin Round[A]Pad_55_mil 23 -450 150)
       (pin Round[A]Pad_55_mil 24 -550 150)
     )
-    (image CONN_13
-      (outline (path signal 15  917.4 141.7  -917.3 141.7))
-      (outline (path signal 15  917.3 -137.7  -917.3 -137.7))
-      (outline (path signal 15  -917.4 141.8  -917.4 -133.8))
-      (outline (path signal 15  917.5 141.7  917.5 -137.8))
-      (pin Round[A]Pad_60_mil (rotate 180) 1 -826.9 -0.1)
-      (pin Round[A]Pad_60_mil (rotate 180) 2 -689.2 0)
-      (pin Round[A]Pad_60_mil (rotate 180) 3 -551.1 0.1)
-      (pin Round[A]Pad_60_mil (rotate 180) 4 -413.4 0)
-      (pin Round[A]Pad_60_mil (rotate 180) 5 -275.6 0)
-      (pin Round[A]Pad_60_mil (rotate 180) 6 -138 0)
-      (pin Round[A]Pad_60_mil (rotate 180) 7 -0.1 0)
-      (pin Round[A]Pad_60_mil 8 137.7 0.1)
-      (pin Round[A]Pad_60_mil 9 275.5 0.1)
-      (pin Round[A]Pad_60_mil 10 413.5 0.1)
-      (pin Round[A]Pad_60_mil 11 688.9 0.2)
-      (pin Round[A]Pad_60_mil 12 551.1 0.1)
-      (pin Round[A]Pad_60_mil (rotate 180) 13 826.7 0.1)
-    )
     (image C2
       (outline (path signal 12  -140 40  140 40))
       (outline (path signal 12  140 40  140 -40))
@@ -156,6 +137,25 @@
       (outline (path signal 12  -100 25  -75 50))
       (pin Round[A]Pad_55_mil 1 -50 0)
       (pin Round[A]Pad_55_mil 2 50 0)
+    )
+    (image CONN_13
+      (outline (path signal 15  917.4 141.7  -917.3 141.7))
+      (outline (path signal 15  917.3 -137.7  -917.3 -137.7))
+      (outline (path signal 15  -917.4 141.8  -917.4 -133.8))
+      (outline (path signal 15  917.5 141.7  917.5 -137.8))
+      (pin Round[A]Pad_60_mil (rotate 180) 1 -826.9 -0.1)
+      (pin Round[A]Pad_60_mil (rotate 180) 2 -689.2 0)
+      (pin Round[A]Pad_60_mil (rotate 180) 3 -551.1 0.1)
+      (pin Round[A]Pad_60_mil (rotate 180) 4 -413.4 0)
+      (pin Round[A]Pad_60_mil (rotate 180) 5 -275.6 0)
+      (pin Round[A]Pad_60_mil (rotate 180) 6 -138 0)
+      (pin Round[A]Pad_60_mil (rotate 180) 7 -0.1 0)
+      (pin Round[A]Pad_60_mil 8 137.7 0.1)
+      (pin Round[A]Pad_60_mil 9 275.5 0.1)
+      (pin Round[A]Pad_60_mil 10 413.5 0.1)
+      (pin Round[A]Pad_60_mil 12 688.9 0.2)
+      (pin Round[A]Pad_60_mil 11 551.1 0.1)
+      (pin Round[A]Pad_60_mil (rotate 180) 13 826.7 0.1)
     )
     (padstack Round[A]Pad_155_mil
       (shape (circle Front 155))
@@ -249,7 +249,7 @@
       (pins SHIELD1-8 U8-8)
     )
     (net GND
-      (pins SHIELD1-GND1 U8-2 U8-4 U8-12 P1-13 C11-2 C12-2 C14-2 C13-2)
+      (pins SHIELD1-GND1 U8-2 U8-4 U8-12 C11-2 C12-2 C14-2 C13-2 P1-13)
     )
     (net "N-000003"
       (pins U8-21 C13-1)
