@@ -31,6 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:arduino_shieldsNCL
 LIBS:nano_Pins
+LIBS:ana_in_shield-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -89,7 +90,6 @@ Wire Wire Line
 	5500 4300 6050 4300
 Wire Wire Line
 	5500 4500 6050 4500
-Connection ~ 2600 2900
 Wire Wire Line
 	2600 2800 2600 3000
 Wire Wire Line
