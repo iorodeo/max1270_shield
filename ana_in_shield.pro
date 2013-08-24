@@ -1,6 +1,6 @@
-update=Sun 23 Sep 2012 01:36:20 PM PDT
+update=Fri 23 Aug 2013 06:07:42 PM PDT
 version=1
-last_client=eeschema
+last_client=pcbnew
 [general]
 version=1
 [cvpcb]
@@ -8,37 +8,6 @@ version=1
 NetIExt=.net
 [cvpcb/libraries]
 EquName1=devcms
-[pcbnew]
-version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
-BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
-TxtModV=600
-TxtModH=600
-TxtModW=120
-VEgarde=100
-DrawLar=150
-EdgeLar=150
-TxtLar=120
-MSegLar=150
-LastNetListRead=nano_Pins.net
-[pcbnew/libraries]
-LibDir=
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=libcms
-LibName7=display
-LibName8=valves
-LibName9=led
-LibName10=dip_sockets
-LibName11=arduino_shields
-LibName12=Arduino_Shields_CONN13
 [eeschema]
 version=1
 LibDir=
@@ -103,3 +72,38 @@ LibName29=contrib
 LibName30=valves
 LibName31=arduino_shieldsNCL
 LibName32=nano_Pins
+[pcbnew]
+version=1
+LastNetListRead=ana_in_shield.net
+UseCmpFile=1
+PadDrill="    0.812800"
+PadDrillOvalY="    0.812800"
+PadSizeH="    1.651000"
+PadSizeV="    1.651000"
+PcbTextSizeV="    2.032000"
+PcbTextSizeH="    1.524000"
+PcbTextThickness="    0.304800"
+ModuleTextSizeV="    1.524000"
+ModuleTextSizeH="    1.524000"
+ModuleTextSizeThickness="    0.304800"
+SolderMaskClearance="    0.254000"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.381000"
+BoardOutlineThickness="    0.381000"
+ModuleOutlineThickness="    0.381000"
+[pcbnew/libraries]
+LibDir=
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=valves
+LibName9=led
+LibName10=dip_sockets
+LibName11=arduino_shields
+LibName12=Arduino_Shields_CONN13
+LibName13=C1_BIG_PAD
+LibName14=C2_BIG_PAD
