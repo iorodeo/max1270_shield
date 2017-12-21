@@ -1,4 +1,4 @@
-(kicad_pcb (version 3) (host pcbnew "(2013-mar-13)-testing")
+(kicad_pcb (version 3) (host pcbnew "(2013-jul-07)-stable")
 
   (general
     (links 31)
@@ -13,10 +13,6 @@
   )
 
   (page A4)
-  (title_block
-    (date "24 sep 2012")
-  )
-
   (layers
     (15 Front signal)
     (0 Back signal)
@@ -87,7 +83,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber_v0p2/))
+      (outputdirectory gerber_v0p3/))
   )
 
   (net 0 "")
@@ -190,10 +186,10 @@
     (at 114.902 133.8)
     (path /4FFEFE94)
     (fp_text reference SHIELD1 (at 22.89302 -3.49758) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_text value ARDUINO_SHIELD (at 20.86102 -6.41858) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (pad AD5 thru_hole oval (at 63.5 -2.54 90) (size 2.54 1.524) (drill 0.8128)
       (layers *.Cu *.Mask F.SilkS)
@@ -450,7 +446,7 @@
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value CONN_13 (at 0 -5.10032 90) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_line (start 23.30196 -3.59918) (end -23.29942 -3.59918) (layer F.SilkS) (width 0.381))
     (fp_line (start 23.29942 3.49758) (end -23.29942 3.49758) (layer F.SilkS) (width 0.381))
@@ -665,7 +661,7 @@
   (gr_text D7 (at 160.7566 85.7504 90) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.1524)))
   )
-  (gr_text "MAX1270 Analog Input Sheild\nIO Rodeo Inc.  V0.2" (at 127.1778 107.696 90) (layer F.SilkS)
+  (gr_text "MAX1270 Analog Input Shield\nIO Rodeo Inc.  V0.3" (at 127.1778 107.696 90) (layer F.SilkS)
     (effects (font (size 2.032 1.524) (thickness 0.3048)))
   )
   (gr_text AD5 (at 178.435 127.762 90) (layer F.SilkS)
